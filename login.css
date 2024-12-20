@@ -72,27 +72,3 @@ label{
 
 
 
-@media(max-width:1400px)
-{
-    html{
-        font-size: 13px;
-    }
-}
-@media(max-width:450px)
-{
-    html{
-        font-size:4.5px;
-    }
-}
-@media(max-width:400px)
-{
-    html{
-        font-size: 4px;
-    }
-}
-@media(max-width:350px)
-{
-    html{
-        font-size:3.7px;
-    }
-}
