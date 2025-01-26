@@ -1,0 +1,129 @@
+#logo
+{
+    width: 10rem;
+    height: 4.68rem;
+    margin-right: auto;
+
+}
+#login,#signup
+{
+    width: 7.8rem;
+    height: 3.12rem;
+    background-color: #D9C7C7;
+    border: none;
+    border-radius: 1.875rem;
+    font-family: "Crimson Text";
+    font-size: 1.3rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+#cart{
+    width: auto;
+    height: 2.815rem;
+    margin-right: 0.625rem;
+}
+#top{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#topbanner{
+    position: sticky;
+    top: 0px;
+    padding-top: 1rem;
+    background-color: white;
+}
+
+#topr{
+    display: flex;
+}
+
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 0.9rem;
+    border-bottom: 0.06rem solid #ddd;
+}
+.cart-item img {
+    width: 11rem;
+    height: 13rem;
+    border-radius: 1rem;
+    margin-right: 0.9rem;
+}
+.cart-item div {
+    flex: 1;
+}
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+ button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 3.5rem ;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0rem;
+}
+span{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+#name{
+    font-size: 2rem;
+    
+    margin-top: 5rem;
+}
+#img{
+    display:flex;
+    flex-direction: row;
+    
+}
+#price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+}
+#qprice{
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-right: 4.8rem;
+}
+
+
+
+
+
+@media(max-width:1400px)
+{
+    html{
+        font-size: 13px;
+    }
+}
+@media(max-width:450px)
+{
+    html{
+        font-size:4.5px;
+    }
+}
+@media(max-width:400px)
+{
+    html{
+        font-size: 4px;
+    }
+}
+@media(max-width:350px)
+{
+    html{
+        font-size:3.7px;
+    }
+}

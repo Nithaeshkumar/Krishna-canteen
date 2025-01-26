@@ -1,0 +1,98 @@
+body{
+
+    background-image: url(./back\ \(2\).jpg);
+
+}
+#login{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#box{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 33rem;
+    height: 35rem;
+    border-radius: 10%;
+    padding-left: 2rem;
+    color: white;
+    
+    
+}
+#toptext{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-right: 3rem;
+    
+}
+
+form{
+    
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+input{
+    height: 2.5rem;
+    background-color:rgba(255, 255, 255,0.8)  ;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    
+}
+#passhow{
+    display: flex;
+    align-items: center;
+}
+label{
+
+    font-size: 1.5rem;
+
+}
+#butto{
+    height: 2.5rem;
+    border-radius: 10rem;
+    background-color: rgba(255, 255, 255,0.8) ;
+    font-size: 1.5rem;
+    font-family: "Crimson Text";
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1400px)
+{
+    html{
+        font-size: 13px;
+    }
+}
+@media(max-width:450px)
+{
+    html{
+        font-size:10px;
+    }
+}
+@media(max-width:400px)
+{
+    html{
+        font-size: 9px;
+    }
+}
+@media(max-width:350px)
+{
+    html{
+        font-size:8px;
+    }
+}

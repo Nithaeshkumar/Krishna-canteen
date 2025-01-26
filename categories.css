@@ -1,0 +1,142 @@
+#logo
+{
+    width: 10rem;
+    height: 4.68rem;
+    margin-right: auto;
+
+}
+#login,#signup
+{
+    width: 7.8rem;
+    height: 3.12rem;
+    background-color: #D9C7C7;
+    border: none;
+    border-radius: 1.875rem;
+    font-family: "Crimson Text";
+    font-size: 1.3rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+#cart{
+    width: auto;
+    height: 2.815rem;
+    margin-right: 0.625rem;
+}
+#top{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#topbanner{
+    position: sticky;
+    top: 0px;
+    padding-top: 1rem;
+    background-color: white;
+}
+
+#topr{
+    display: flex;
+}
+
+#sort{
+    font-size: 1.3rem;
+
+    margin-bottom: 2rem;
+    
+}
+select{
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+        
+}
+#naming{
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+
+#Recent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+#recenttext{
+    font-size: 4rem;
+    margin: 0;
+    margin-top: 1.5rem;
+    font-family: Quicksand;
+    margin-bottom: 1rem;
+}
+#recentimg{
+    width: 14rem;
+    height: 21rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    
+}
+#recentbutton{
+    
+    width: 7.8rem;
+    height: 3.12rem;
+    background-color: #1d344a;
+    border: 0;
+    font-family: "Crimson Text";
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#rec{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 2.5rem;
+}
+#rec p{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.bi-cart{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#recentt{
+    font-family: Roboto Condensed;
+    font-size: 1.3rem;
+}
+
+
+
+@media(max-width:1400px)
+{
+    html{
+        font-size: 13px;
+    }
+}
+@media(max-width:450px)
+{
+    html{
+        font-size:4.5px;
+    }
+}
+@media(max-width:400px)
+{
+    html{
+        font-size: 4px;
+    }
+}
+@media(max-width:350px)
+{
+    html{
+        font-size:3.7px;
+    }
+}
